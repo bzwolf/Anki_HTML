@@ -13,6 +13,7 @@ from anki import Collection as aopen
 
 coll_path   = "/Users/drlulz/Documents/Anki/DrLulz/collection.anki2"
 
+
 def make_cards(card_front, card_back, img, rx_tags):
     
     fpath = img.decode('utf-8')
